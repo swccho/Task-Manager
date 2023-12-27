@@ -1,0 +1,24 @@
+.menu{
+  .burger-icon{
+    width: 30px;
+    &:hover{
+      .bar{
+        transition: var(--default-transition);
+        width: 70%;
+        &:nth-child(2){
+          width: 100%;
+        }
+      }
+    }
+    .bar{
+      transition: var(--default-transition);
+      width: 100%;
+      height: 1px;
+      background-color: var(--white);
+      &:nth-child(2){
+        margin: 6px 0;
+        width: 70%;
+      }
+    }
+  }
+}

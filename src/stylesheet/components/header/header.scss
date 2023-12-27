@@ -9,5 +9,11 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding:40px 35px;
+  padding:20px;
+  .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
