@@ -1,0 +1,28 @@
+:root{
+  /*font families*/
+  --font-roboto:  'Roboto', sans-serif;
+  --font-manrope:  'Manrope', sans-serif;
+
+  /*Colors*/
+  --white:#fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: var(--font-manrope);
+  font-size: 14px;
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 0;
+    height: 0 !important;
+  }
+}

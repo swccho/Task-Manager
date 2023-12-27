@@ -1,0 +1,13 @@
+header{
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  filter:  brightness(1.5);
+  background-color:#2b2a2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:40px 35px;
+}
